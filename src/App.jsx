@@ -1,12 +1,15 @@
 import './App.css'
+import Counter from './components/Counter'
+import UserDetails from './components/UserDetails'
+
 
 function App() {
-  
-
   return (
-    <div>
-      hello
-    </div>
+    <>
+      <Counter/>
+      <UserDetails/>
+     
+    </>
   )
 }
 
